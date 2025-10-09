@@ -17,4 +17,7 @@ fn main() {
 
     println!("{:?}", a_baru);
     println!("{:?}", b_baru);
+
+    let langth: usize = array.len();
+    println!("{}", langth);
 }
