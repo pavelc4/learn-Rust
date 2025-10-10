@@ -1,26 +1,19 @@
-fn main(){
+fn main() {
+    let mut a = 10;
+    println!("{}", a);
 
-    let mut  a = 10;
-    println!("{}",a);
-    
-
-    a +=  10;
-    println!("{}",a);
+    a += 10;
+    println!("{}", a);
 
     a -= 10;
-    println!("{}",a);
+    println!("{}", a);
 
-
-
-    a  *= 10;
-    println!("{}",a);
-
+    a *= 10;
+    println!("{}", a);
 
     a /= 10;
-    println!("{}",a);
+    println!("{}", a);
 
     a %= 10;
-    println!("{}",a);
-
-
+    println!("{}", a);
 }
